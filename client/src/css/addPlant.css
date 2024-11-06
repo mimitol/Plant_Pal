@@ -1,0 +1,174 @@
+/* קובץ upload-plant.css */
+.upload-plant-container {
+  padding: 20px;
+  background-color: #ffffff;
+  /* רקע לבן */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  height: 100vh;
+  /* תופס את כל גובה המסך */
+  width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* מרכז את התוכן לאורך הציר האנכי */
+  align-items: center;
+  /* מרכז את התוכן לאורך הציר האופקי */
+  color: #228b22
+}
+
+.selected-image {
+  border: 3px solid #228b22;
+  /* מסגרת כשהתמונה נבחרת */
+  width: 180px;
+  height: 180px;
+}
+
+.logo {
+  width: 450px;
+  /* הגדלת גודל הלוגו */
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.instructions {
+  font-size: 1.5rem;
+  /* הגדלת הגופן */
+  margin-bottom: 15px;
+  color: #228b22;
+}
+
+.upload-buttons {
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+}
+
+.upload-buttons input[type="file"] {
+  display: none;
+}
+
+.upload-buttons label {
+  padding: 10px 20px;
+  border: 2px solid #228b22;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #228b22;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-right: 10px;
+}
+
+.upload-buttons label:hover {
+  background-color: #228b22;
+  color: #ffffff;
+}
+
+.labelforupload {
+  border: 2px solid #ffffff;
+}
+
+.preview-images {
+  width: 550px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.preview-images img {
+  width: 150px;
+  /* הגדלת גודל התמונות המוצגות */
+  height: 150px;
+  border: 2px solid #228b22;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.identify-button {
+  padding: 15px 30px;
+  /* הגדלת כפתור הזיהוי */
+  font-size: 1.2rem;
+  border: 2px solid #228b22;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #228b22;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 150px;
+}
+
+.identify-button:hover {
+  background-color: #228b22;
+  color: #fff;
+}
+
+.result-section {
+  margin-top: 10px;
+}
+
+.result-section h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.result-section p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.result-section .result-images {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  /* הוספת יישור אנכי לחלק התחתון */
+  margin-top: 50px;
+
+}
+
+.result-section .result-images img {
+
+  border: 2px solid transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 2px solid #228b22;
+
+}
+
+.result-section .result-images img:hover {
+  border-color: #a1eca1;
+}
+
+.first {
+  width: 170px;
+  /* הגדלת גודל התמונות המוצגות */
+  height: 170px;
+}
+
+.second {
+  width: 160px;
+  /* הגדלת גודל התמונות המוצגות */
+  height: 160px;
+}
+
+.third {
+  width: 150px;
+  /* הגדלת גודל התמונות המוצגות */
+  height: 150px;
+}
+
+.anotherbuttons {
+  padding: 10px 20px;
+  border: 2px solid #228b22;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #228b22;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-right: 10px;
+}
+
+.anotherbuttons button:hover {
+  background-color: #228b22;
+  color: #ffffff;
+}

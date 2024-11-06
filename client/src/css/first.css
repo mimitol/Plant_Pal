@@ -1,0 +1,55 @@
+/* קובץ first.css */
+
+/* סגנון גופן עיקרי */
+body {
+  font-family: 'Dancing Script', cursive;
+}
+
+/* עיצוב העמוד */
+.landing-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* למרכז כל האלמנטים אנכי ואופקי */
+  padding: 20px;
+  background-color: #ffffff; /* רקע בגוון ירוק יחסית כהה */
+  height: 100vh; /* גובה של המסך בגובה מלא */
+  max-width: 1200px; /* מקסימום רוחב */
+  width: 450px;
+  margin: 0 auto; /* למרכז האלמנט באופן אוטומטי */
+}
+
+/* עיצוב הלוגו */
+.logo {
+  width: 350px; /* גודל רחב יותר ללוגו */
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* עיצוב הכפתורים */
+.buttons-container {
+  display: flex;
+  flex-direction: column; /* מעמד את הכפתורים כעמוד */
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.buttons-container button {
+  width: 100%; /* רוחב מלא לכל כפתור */
+  padding: 15px 30px; /* גודל יותר גדול לכפתורים */
+  font-size: 1.2rem; /* גודל גופן גדול יותר */
+  border: 2px solid #228b22; /* מסגרת ירוקה */
+  border-radius: 5px;
+  background-color: #fff; /* רקע לבן */
+  color: #228b22; /* כיתוב ירוק */
+  cursor: pointer;
+  transition: all 0.3s ease; /* אנימציה על מעבר העכבר */
+}
+
+.buttons-container button:hover {
+  background-color: #228b22; /* רקע ירוק בעת העכבר מעלה */
+  color: #fff; /* כיתוב לבן בעת העכבר מעלה */
+  border-color: #228b22; /* מסגרת ירוקה בהירה בעת העכבר מעלה */
+}
+

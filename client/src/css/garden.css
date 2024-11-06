@@ -1,0 +1,41 @@
+.my-garden {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    height: 100vh; /* גובה מלא של המסך */
+    width: 450px; /* רוחב של 450 פיקסלים */
+    margin: 0 auto; /* מרכז את הרכיב במסך */
+    color: #228b22;
+}
+
+.garden-logo {
+    width: 400px; /* גודל גדול יותר ללוגו */
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.plants-list {
+    display: flex;
+    flex-direction: column; /* הופך את הרשימה לאנכית */
+    gap: 10px; /* רווחים בין הצמחים */
+}
+
+.add-plant-button {
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    border: 2px solid #228b22;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #228b22;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 250px;
+}
+
+.add-plant-button:hover {
+    background-color: #228b22;
+    color: #fff;
+}
